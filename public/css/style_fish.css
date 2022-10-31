@@ -1,0 +1,186 @@
+.cust-nav {
+    background: hsla(356, 92%, 43%, 1);
+    background: linear-gradient(
+        180deg,
+        hsla(356, 92%, 43%, 1) 0%,
+        hsla(0, 81%, 12%, 1) 100%
+    );
+    background: -moz-linear-gradient(
+        180deg,
+        hsla(356, 92%, 43%, 1) 0%,
+        hsla(0, 81%, 12%, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        180deg,
+        hsla(356, 92%, 43%, 1) 0%,
+        hsla(0, 81%, 12%, 1) 100%
+    );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D00915", endColorstr="#390606", GradientType=1 );
+}
+
+.primaryBtn {
+    background: linear-gradient(
+        180deg,
+        hsla(356, 92%, 43%, 1) 0%,
+        hsla(0, 81%, 12%, 1) 100%
+    );
+}
+.textPrimary {
+    /* font-size: 72px; */
+    background: -webkit-linear-gradient(#d00915, #390606);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.preVideo {
+    width: 420px;
+    height: 315px;
+}
+
+.showVideo {
+    width: 100%;
+    height: 291px;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+}
+.ikan {
+    height: 180px;
+}
+.preview {
+    overflow: hidden;
+    width: 320px;
+    height: 160px;
+    margin: 10px;
+    border: 1px solid red;
+}
+.large {
+    max-width: 1000px !important;
+}
+
+.fish-detail {
+    width: 100%;
+    max-height: 600px;
+}
+
+@media (max-width: 1024px) {
+    .ikan {
+        height: 150px;
+    }
+    .fish-detail {
+        max-height: 400px;
+    }
+    .showVideo {
+        width: 100%;
+        height: 241px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ikan {
+        height: 150px;
+    }
+    .fish-detail {
+        max-height: 350px;
+    }
+    .preVideo {
+        width: 420px;
+        height: 315px;
+    }
+    .showVideo {
+        width: 100%;
+        height: 175px;
+    }
+}
+
+@media (max-width: 425px) {
+    .ikan {
+        height: 180px;
+    }
+    .fish-detail {
+        max-height: 200px;
+    }
+
+    div[class|="cropper-container cropper-bg"] {
+        width: 350px !important;
+    }
+
+    div[class|="cropper-drag-box cropper-crop cropper-modal"] {
+        width: 350px !important;
+    }
+    div[class|="cropper-crop-box"] {
+        width: 350px !important;
+    }
+    img[class|="cropper-hide"] {
+        width: 350px !important;
+        object-fit: contain;
+    }
+
+    .preVideo {
+        width: 360px;
+        height: 215px;
+    }
+    .showVideo {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 375px) {
+    .ikan {
+        height: 160px;
+    }
+    .fish-detail {
+        max-height: 180px;
+    }
+    .preVideo {
+        width: 320px;
+        height: 215px;
+    }
+    div[class|="cropper-container cropper-bg"] {
+        width: 300px !important;
+    }
+
+    div[class|="cropper-drag-box cropper-crop cropper-modal"] {
+        width: 300px !important;
+    }
+    div[class|="cropper-crop-box"] {
+        width: 300px !important;
+    }
+    img[class|="cropper-hide"] {
+        width: 300px !important;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 320px) {
+    .ikan {
+        height: 160px;
+    }
+    .fish-detail {
+        max-height: 180px;
+    }
+    .preVideo {
+        width: 250px;
+        height: 160px;
+    }
+    div[class|="cropper-container cropper-bg"] {
+        width: 250px !important;
+    }
+
+    div[class|="cropper-drag-box cropper-crop cropper-modal"] {
+        width: 250px !important;
+    }
+    div[class|="cropper-crop-box"] {
+        width: 250px !important;
+    }
+    img[class|="cropper-hide"] {
+        width: 250px !important;
+        object-fit: contain;
+    }
+    div[class|="preview"] {
+        width: 240px !important;
+    }
+}
